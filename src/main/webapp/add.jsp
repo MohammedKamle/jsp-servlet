@@ -13,8 +13,9 @@
 	If you see below we have not initialised HttpServletRequest and PrintWriter objects, 
 	it is done implicitly by jsp
 	-At runtime the jsp is converted into Servlet which inturn is used by Tomcat
-	-All the logic which is written inside <%%> is copy-pasted inside service()/doGet/doPost method " 
-	- If we want to declare a variable outside service()/doGet()/doPost() methods, we need to write it
+	-All the logic which is written inside <%%> is copy-pasted inside service() method which is inside the Servlet
+        class developed at runtime by jsp" 
+	- If we want to declare a variable outside service() methods, we need to write it
 	inside <%!%> as shown below
 	 --> 
 	 <%!
