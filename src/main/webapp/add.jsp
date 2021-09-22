@@ -24,7 +24,9 @@
 	 int thisVariableIsOutsideServiceMethod = 0;
 	 %>
 	 
-	 <!-- If we want to import a package we write in the following way(its called directive) -->
+	 <!-- If we want to import a package we write in the following way(its called directive)
+	 Infact all the global things in a class are written in this tag
+	  -->
 	 <!-- directive tag  -->
 	 <%@ page import="java.util.Date, java.io.FileOutputStream" %>
 	 
